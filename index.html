@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="pictures/301008458_1137937930125707_8584856904201166216_n.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="icon-social">
+        <a href="https://www.facebook.com/HaiDang1705" target="_blank"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/im.haidng/" target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+      <img
+        src="pictures/301008458_1137937930125707_8584856904201166216_n.jpg"
+        alt=""
+      />
+
+      <h2>Hoàng Hải Đăng</h2>
+      <p>17/02/2002</p>
+      <p>Sinh viên đại học Mỏ Địa chất</p>
+      <p>Đang học it với mong muốn trở thành cốt dơ</p>
+      <div class="but-container">
+        <button>0373203345</button>
+        <button>HiHi</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    const imgB = document.querySelector(".container img");
+    imgB.addEventListener("click", function () {
+      this.classList.toggle("active");
+    });
+  </script>
+</html>
